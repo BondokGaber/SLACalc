@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLACalc.Api", "SLACalc.Api.csproj", "{26A43466-6455-410D-BB4A-580C4E87F5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLACalc.Domain", "..\SLACalc.Domain\SLACalc.Domain.csproj", "{FA7FA3BE-0EC7-4EBF-BD09-FD62ED721A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLACalc.Infrastructure", "..\SLACalc.Infrastructure\SLACalc.Infrastructure.csproj", "{0984A586-1207-419E-A600-F04077361395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLACalc.Application", "..\SLACalc.Application\SLACalc.Application.csproj", "{EED49538-DF01-4885-9E78-13837774968D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+		..\..\..\Desktop\script.sql = ..\..\..\Desktop\script.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26A43466-6455-410D-BB4A-580C4E87F5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A43466-6455-410D-BB4A-580C4E87F5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A43466-6455-410D-BB4A-580C4E87F5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A43466-6455-410D-BB4A-580C4E87F5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7FA3BE-0EC7-4EBF-BD09-FD62ED721A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7FA3BE-0EC7-4EBF-BD09-FD62ED721A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7FA3BE-0EC7-4EBF-BD09-FD62ED721A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7FA3BE-0EC7-4EBF-BD09-FD62ED721A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0984A586-1207-419E-A600-F04077361395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0984A586-1207-419E-A600-F04077361395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0984A586-1207-419E-A600-F04077361395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0984A586-1207-419E-A600-F04077361395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED49538-DF01-4885-9E78-13837774968D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED49538-DF01-4885-9E78-13837774968D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED49538-DF01-4885-9E78-13837774968D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED49538-DF01-4885-9E78-13837774968D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB34BC66-253C-4C66-BDDC-E904C1A9617B}
+	EndGlobalSection
+EndGlobal
